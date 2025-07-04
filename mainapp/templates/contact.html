@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Contact - TURTLE{% endblock %}
+
+{% block content %}
+<div class="max-w-xl mx-auto p-6 bg-white rounded shadow-md mt-12">
+    <h2 class="text-3xl font-bold mb-6 text-center">Contactez-nous</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class="grid grid-cols-1 gap-4">
+            {{ form.as_p }}
+        </div>
+        <button type="submit" class="mt-4 bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded w-full">
+            Envoyer
+        </button>
+    </form>
+</div>
+{% endblock %}

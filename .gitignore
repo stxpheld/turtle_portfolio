@@ -1,0 +1,24 @@
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Virtual env
+env/
+venv/
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Media files
+/media
+
+# Migrations
+*/migrations/*.pyc
+*/migrations/__pycache__/
+*/migrations/*.py
+!*/migrations/__init__.py
