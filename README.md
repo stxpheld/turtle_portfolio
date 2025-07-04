@@ -1,4 +1,4 @@
-# Turtle Project 🐢
+# Turtle Portfolio 🐢
 
 Site photo & vidéo développé en Django pour le media Turtle.
 
