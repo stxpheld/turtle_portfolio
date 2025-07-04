@@ -1,6 +1,6 @@
 # Turtle Project 🐢
 
-Site photo & vidéo développé en Django.
+Site photo & vidéo développé en Django pour le media Turtle.
 
 ## Features
 
